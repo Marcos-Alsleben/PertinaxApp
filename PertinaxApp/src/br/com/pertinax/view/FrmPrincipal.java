@@ -566,7 +566,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tb_bobstCoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tb_bobstCoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         tb_bobstCoated.setRowHeight(18);
         tb_bobstCoated.getTableHeader().setReorderingAllowed(false);
         tb_bobstCoated.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -621,7 +621,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jButton18.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton18.setText("Limpar");
-        jButton18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton18.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -668,7 +668,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(jPanel44, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 545, Short.MAX_VALUE))
         );
@@ -708,7 +708,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tb_cartonCoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tb_cartonCoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         tb_cartonCoated.setRowHeight(18);
         tb_cartonCoated.getTableHeader().setReorderingAllowed(false);
         tb_cartonCoated.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -781,7 +781,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jButton19.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton19.setText("Limpar");
-        jButton19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton19.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
@@ -861,7 +861,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tb_cartonLaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tb_cartonLaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         tb_cartonLaminado.setRowHeight(18);
         tb_cartonLaminado.getTableHeader().setReorderingAllowed(false);
         tb_cartonLaminado.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -940,7 +940,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jButton20.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton20.setText("Limpar");
-        jButton20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton20.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
@@ -972,7 +972,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
             jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jButton20, javax.swing.GroupLayout.Alignment.CENTER)
             .addComponent(txtpesquisagrmlaminado, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
             .addComponent(txtpesquisanomelaminado, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(txtpesquisafacalaminado, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -992,7 +992,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 545, Short.MAX_VALUE))
         );
@@ -1016,7 +1016,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tb_cartonAcoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tb_cartonAcoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         tb_cartonAcoplado.setRowHeight(18);
         tb_cartonAcoplado.getTableHeader().setReorderingAllowed(false);
         tb_cartonAcoplado.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1095,7 +1095,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jButton21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton21.setText("Limpar");
-        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton21ActionPerformed(evt);
@@ -1306,7 +1306,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btncriarcoated.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btncriarcoated.setText("Criar");
-        btncriarcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btncriarcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btncriarcoated.setEnabled(false);
         btncriarcoated.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1316,7 +1316,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnalterarcoated.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnalterarcoated.setText("Alterar");
-        btnalterarcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnalterarcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnalterarcoated.setEnabled(false);
         btnalterarcoated.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1326,7 +1326,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnexcluircoated.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnexcluircoated.setText("Excluir");
-        btnexcluircoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnexcluircoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnexcluircoated.setEnabled(false);
         btnexcluircoated.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1361,7 +1361,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnlimparcoated.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnlimparcoated.setText("Limpar");
-        btnlimparcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlimparcoated.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnlimparcoated.setEnabled(false);
         btnlimparcoated.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1602,7 +1602,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btncriarlaminado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btncriarlaminado.setText("Criar");
-        btncriarlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btncriarlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btncriarlaminado.setEnabled(false);
         btncriarlaminado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1612,7 +1612,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnalterarlaminado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnalterarlaminado.setText("Alterar");
-        btnalterarlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnalterarlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnalterarlaminado.setEnabled(false);
         btnalterarlaminado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1622,7 +1622,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnexcluirlaminado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnexcluirlaminado.setText("Excluir");
-        btnexcluirlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnexcluirlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnexcluirlaminado.setEnabled(false);
         btnexcluirlaminado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1638,7 +1638,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnlimparlaminado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnlimparlaminado.setText("Limpar");
-        btnlimparlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlimparlaminado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnlimparlaminado.setEnabled(false);
         btnlimparlaminado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1885,7 +1885,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btncriaracoplado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btncriaracoplado.setText("Criar");
-        btncriaracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btncriaracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btncriaracoplado.setEnabled(false);
         btncriaracoplado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1895,7 +1895,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnalteraracoplado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnalteraracoplado.setText("Alterar");
-        btnalteraracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnalteraracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnalteraracoplado.setEnabled(false);
         btnalteraracoplado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1905,7 +1905,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnexcluiracoplado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnexcluiracoplado.setText("Excluir");
-        btnexcluiracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnexcluiracoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnexcluiracoplado.setEnabled(false);
         btnexcluiracoplado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1921,7 +1921,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnlimparacoplado.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnlimparacoplado.setText("Limpar");
-        btnlimparacoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlimparacoplado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnlimparacoplado.setEnabled(false);
         btnlimparacoplado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2017,7 +2017,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel46.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Fresa 2", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Tahoma", 1, 14))); // NOI18N
+        jPanel46.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Pertinax", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Tahoma", 1, 14))); // NOI18N
 
         txtpertinaxbobst.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpertinaxbobst.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -2033,7 +2033,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
             .addComponent(txtpertinaxbobst, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jPanel47.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Fresa 2", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Tahoma", 1, 14))); // NOI18N
+        jPanel47.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Fresa 1", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Tahoma", 1, 14))); // NOI18N
 
         txtfresa1bobst.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtfresa1bobst.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -2067,7 +2067,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btncriarbobst.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btncriarbobst.setText("Criar");
-        btncriarbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btncriarbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btncriarbobst.setEnabled(false);
         btncriarbobst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2077,7 +2077,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnalterarbobst.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnalterarbobst.setText("Alterar");
-        btnalterarbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnalterarbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnalterarbobst.setEnabled(false);
         btnalterarbobst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2087,7 +2087,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnexcluirbobst.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnexcluirbobst.setText("Excluir");
-        btnexcluirbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnexcluirbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnexcluirbobst.setEnabled(false);
         btnexcluirbobst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2127,7 +2127,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnlimparbobst.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnlimparbobst.setText("Limpar");
-        btnlimparbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlimparbobst.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnlimparbobst.setEnabled(false);
         btnlimparbobst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2221,7 +2221,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
         tb_gerenciaCartao.setToolTipText("");
-        tb_gerenciaCartao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tb_gerenciaCartao.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         tb_gerenciaCartao.setMinimumSize(new java.awt.Dimension(35, 0));
         tb_gerenciaCartao.setName(""); // NOI18N
         tb_gerenciaCartao.setRowHeight(18);
@@ -2261,7 +2261,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btncriargerenciarcartao.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btncriargerenciarcartao.setText("Criar");
-        btncriargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btncriargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btncriargerenciarcartao.setEnabled(false);
         btncriargerenciarcartao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2271,7 +2271,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnalterargerenciarcartao.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnalterargerenciarcartao.setText("Alterar");
-        btnalterargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnalterargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnalterargerenciarcartao.setEnabled(false);
         btnalterargerenciarcartao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2281,7 +2281,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnexcluirgerenciarcartao.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnexcluirgerenciarcartao.setText("Excluir");
-        btnexcluirgerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnexcluirgerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnexcluirgerenciarcartao.setEnabled(false);
         btnexcluirgerenciarcartao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2297,7 +2297,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         btnlimpargerenciarcartao.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnlimpargerenciarcartao.setText("Limpar");
-        btnlimpargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlimpargerenciarcartao.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnlimpargerenciarcartao.setEnabled(false);
         btnlimpargerenciarcartao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2462,7 +2462,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
 
         lb_Minimizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Minimizar.png"))); // NOI18N
-        lb_Minimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lb_Minimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lb_Minimizar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lb_MinimizarMouseClicked(evt);
@@ -2476,7 +2476,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
 
         lb_Maximizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/MaximizarMais.png"))); // NOI18N
-        lb_Maximizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lb_Maximizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lb_Maximizar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lb_MaximizarMouseClicked(evt);
@@ -2490,7 +2490,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
 
         lb_Fechar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Fechar.png"))); // NOI18N
-        lb_Fechar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lb_Fechar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lb_Fechar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lb_FecharMouseClicked(evt);
