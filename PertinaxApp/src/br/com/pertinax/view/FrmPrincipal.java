@@ -527,7 +527,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("PertinaxApp 1.5");
+        setTitle("PertinaxApp 1.6");
         setUndecorated(true);
         setOpacity(0.0F);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -2354,7 +2354,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Icone_P_menor.png"))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Baskerville Old Face", 1, 36)); // NOI18N
-        jLabel5.setText("PertinaxApp 1.5");
+        jLabel5.setText("PertinaxApp 1.6");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel6.setText("Programa para cadastro de Pertinax");
@@ -2505,7 +2505,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jLabel19.setFont(new java.awt.Font("Baskerville Old Face", 1, 14)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel19.setText("PertinaxApp 1.5");
+        jLabel19.setText("PertinaxApp 1.6");
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
