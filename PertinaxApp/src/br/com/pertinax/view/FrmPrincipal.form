@@ -296,7 +296,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomebobstKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomebobstKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel1">
@@ -315,7 +315,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmbobstKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmbobstKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel15">
@@ -562,7 +562,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacacoatedKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacacoatedKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel2">
@@ -589,7 +589,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomecoatedKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomecoatedKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel16">
@@ -608,7 +608,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmcoatedKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmcoatedKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton19">
@@ -817,7 +817,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacalaminadoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacalaminadoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel10">
@@ -844,7 +844,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomelaminadoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomelaminadoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel17">
@@ -863,7 +863,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmlaminadoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmlaminadoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton20">
@@ -1078,7 +1078,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacaacopladoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisafacaacopladoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel12">
@@ -1105,7 +1105,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomeacopladoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisanomeacopladoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel18">
@@ -1124,7 +1124,7 @@
                                     <Property name="horizontalAlignment" type="int" value="0"/>
                                   </Properties>
                                   <Events>
-                                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmacopladoKeyPressed"/>
+                                    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtpesquisagrmacopladoKeyReleased"/>
                                   </Events>
                                 </Component>
                                 <Component class="javax.swing.JButton" name="jButton21">

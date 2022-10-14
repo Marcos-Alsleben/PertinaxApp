@@ -21,6 +21,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
@@ -600,8 +601,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisanomebobst.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisanomebobst.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisanomebobst.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisanomebobstKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisanomebobstKeyReleased(evt);
             }
         });
 
@@ -611,8 +612,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisagrmbobst.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisagrmbobst.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisagrmbobst.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisagrmbobstKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisagrmbobstKeyReleased(evt);
             }
         });
 
@@ -749,8 +750,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisafacacoated.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisafacacoated.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisafacacoated.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisafacacoatedKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisafacacoatedKeyReleased(evt);
             }
         });
 
@@ -763,8 +764,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisanomecoated.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisanomecoated.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisanomecoated.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisanomecoatedKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisanomecoatedKeyReleased(evt);
             }
         });
 
@@ -774,8 +775,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisagrmcoated.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisagrmcoated.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisagrmcoated.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisagrmcoatedKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisagrmcoatedKeyReleased(evt);
             }
         });
 
@@ -908,8 +909,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisafacalaminado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisafacalaminado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisafacalaminado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisafacalaminadoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisafacalaminadoKeyReleased(evt);
             }
         });
 
@@ -922,8 +923,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisanomelaminado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisanomelaminado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisanomelaminado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisanomelaminadoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisanomelaminadoKeyReleased(evt);
             }
         });
 
@@ -933,8 +934,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisagrmlaminado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisagrmlaminado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisagrmlaminado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisagrmlaminadoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisagrmlaminadoKeyReleased(evt);
             }
         });
 
@@ -1063,8 +1064,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisafacaacoplado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisafacaacoplado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisafacaacoplado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisafacaacopladoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisafacaacopladoKeyReleased(evt);
             }
         });
 
@@ -1077,8 +1078,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisanomeacoplado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisanomeacoplado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisanomeacoplado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisanomeacopladoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisanomeacopladoKeyReleased(evt);
             }
         });
 
@@ -1088,8 +1089,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txtpesquisagrmacoplado.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         txtpesquisagrmacoplado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtpesquisagrmacoplado.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtpesquisagrmacopladoKeyPressed(evt);
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtpesquisagrmacopladoKeyReleased(evt);
             }
         });
 
@@ -3286,49 +3287,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         Atualizarcbnomeacoplado();
     }//GEN-LAST:event_btnexcluirgerenciarcartaoActionPerformed
 
-    private void txtpesquisanomebobstKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomebobstKeyPressed
-
-        // Pesquisar nome e gramatura na lista BobstCoated
-        PesquisaNomeGramaturaBobstCoated();
-
-    }//GEN-LAST:event_txtpesquisanomebobstKeyPressed
-
-    private void txtpesquisafacalaminadoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacalaminadoKeyPressed
-
-        // Pesquisar na lista cartonlaminado
-        PesquisaFacaNomeGramaturaCartaoLaminado();
-    }//GEN-LAST:event_txtpesquisafacalaminadoKeyPressed
-
-    private void txtpesquisanomelaminadoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomelaminadoKeyPressed
-
-        // Pesquisar na lista cartonlaminado
-        PesquisaFacaNomeGramaturaCartaoLaminado();
-    }//GEN-LAST:event_txtpesquisanomelaminadoKeyPressed
-
-    private void txtpesquisafacacoatedKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacacoatedKeyPressed
-
-        // Pesquisar na lista cartonCoated
-        PesquisaFacaNomeGramaturaCartaoCoated();
-    }//GEN-LAST:event_txtpesquisafacacoatedKeyPressed
-
-    private void txtpesquisanomecoatedKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomecoatedKeyPressed
-
-        // Pesquisar na lista cartonCoated
-        PesquisaFacaNomeGramaturaCartaoCoated();
-    }//GEN-LAST:event_txtpesquisanomecoatedKeyPressed
-
-    private void txtpesquisafacaacopladoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacaacopladoKeyPressed
-
-        // Pesquisar na lista CartonAcoplado
-        PesquisaFacaNomeGramaturaCartaoAcoplado();
-    }//GEN-LAST:event_txtpesquisafacaacopladoKeyPressed
-
-    private void txtpesquisanomeacopladoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomeacopladoKeyPressed
-
-        // Pesquisar na lista CartonAcoplado
-        PesquisaFacaNomeGramaturaCartaoAcoplado();
-    }//GEN-LAST:event_txtpesquisanomeacopladoKeyPressed
-
     private void btnlimparbobstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnlimparbobstActionPerformed
 
         //Limpa os paineis        
@@ -3527,29 +3485,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_txtgrmcartaobobstKeyPressed
 
-    private void txtpesquisagrmbobstKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmbobstKeyPressed
-
-        // Pesquisar gramatura na lista BobstCoated
-        PesquisaNomeGramaturaBobstCoated();
-    }//GEN-LAST:event_txtpesquisagrmbobstKeyPressed
-
-    private void txtpesquisagrmcoatedKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmcoatedKeyPressed
-
-        //pesquisar na lista cartonCoated
-        PesquisaFacaNomeGramaturaCartaoCoated();
-    }//GEN-LAST:event_txtpesquisagrmcoatedKeyPressed
-
-    private void txtpesquisagrmlaminadoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmlaminadoKeyPressed
-        //pesquisar na lista cartonLamiando
-        PesquisaFacaNomeGramaturaCartaoLaminado();
-    }//GEN-LAST:event_txtpesquisagrmlaminadoKeyPressed
-
-    private void txtpesquisagrmacopladoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmacopladoKeyPressed
-
-        //pesquisar na lista cartonAcoplado
-        PesquisaFacaNomeGramaturaCartaoAcoplado();
-    }//GEN-LAST:event_txtpesquisagrmacopladoKeyPressed
-
     private void lb_FecharMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lb_FecharMouseClicked
         // Transição de fechamento
         for (double i = 1.0; i >= 0.0; i = i - 0.1) {
@@ -3667,6 +3602,61 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         this.setLocation(x - eixox, y - eixoy);
     }//GEN-LAST:event_jPanel17MouseDragged
+
+    private void txtpesquisanomebobstKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomebobstKeyReleased
+
+        PesquisaNomeGramaturaBobstCoated();
+    }//GEN-LAST:event_txtpesquisanomebobstKeyReleased
+
+    private void txtpesquisagrmbobstKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmbobstKeyReleased
+
+        PesquisaNomeGramaturaBobstCoated();
+    }//GEN-LAST:event_txtpesquisagrmbobstKeyReleased
+
+    private void txtpesquisafacacoatedKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacacoatedKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoCoated();
+    }//GEN-LAST:event_txtpesquisafacacoatedKeyReleased
+
+    private void txtpesquisanomecoatedKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomecoatedKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoCoated();
+    }//GEN-LAST:event_txtpesquisanomecoatedKeyReleased
+
+    private void txtpesquisagrmcoatedKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmcoatedKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoCoated();
+    }//GEN-LAST:event_txtpesquisagrmcoatedKeyReleased
+
+    private void txtpesquisafacalaminadoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacalaminadoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoLaminado();
+    }//GEN-LAST:event_txtpesquisafacalaminadoKeyReleased
+
+    private void txtpesquisanomelaminadoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomelaminadoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoLaminado();
+    }//GEN-LAST:event_txtpesquisanomelaminadoKeyReleased
+
+    private void txtpesquisagrmlaminadoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmlaminadoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoLaminado();
+    }//GEN-LAST:event_txtpesquisagrmlaminadoKeyReleased
+
+    private void txtpesquisafacaacopladoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisafacaacopladoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoAcoplado();
+    }//GEN-LAST:event_txtpesquisafacaacopladoKeyReleased
+
+    private void txtpesquisanomeacopladoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisanomeacopladoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoAcoplado();
+    }//GEN-LAST:event_txtpesquisanomeacopladoKeyReleased
+
+    private void txtpesquisagrmacopladoKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtpesquisagrmacopladoKeyReleased
+
+        PesquisaFacaNomeGramaturaCartaoAcoplado();
+    }//GEN-LAST:event_txtpesquisagrmacopladoKeyReleased
 
     /**
      * @param args the command line arguments
