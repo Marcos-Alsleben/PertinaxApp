@@ -21,13 +21,13 @@ import javax.swing.JOptionPane;
  * @author mrs_a
  */
 public class CartonAcopladoDAO {
-    
+
     private Connection con;
 
     public CartonAcopladoDAO() {
         this.con = new ConnectionFactory().getConnection();
     }
-    
+
     //Metodo cadastrarAcoplado
     public void cadastrarAcoplado(CartonAcoplado obj) {
         try {
@@ -52,6 +52,7 @@ public class CartonAcopladoDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Cadastrado com Sucesso!");
 
@@ -61,9 +62,9 @@ public class CartonAcopladoDAO {
         }
 
     }
-    
+
     //Metodo AlterarAcoplado
-    public void alterarAcoplado(CartonAcoplado obj){
+    public void alterarAcoplado(CartonAcoplado obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -87,6 +88,7 @@ public class CartonAcopladoDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Alterado com Sucesso!");
 
@@ -94,11 +96,11 @@ public class CartonAcopladoDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ExcluirAcoplado
-    public void excluirAcoplado(CartonAcoplado obj){
+    public void excluirAcoplado(CartonAcoplado obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -106,11 +108,12 @@ public class CartonAcopladoDAO {
 
             //2 passo - conectar o banco de dados e organizar o comando sql
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setInt(1, obj.getId());            
+            stmt.setInt(1, obj.getId());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Excluido com Sucesso!");
 
@@ -118,9 +121,9 @@ public class CartonAcopladoDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ListarCartonAcoplado
     public List<CartonAcoplado> listarCartonAcoplado() {
 
@@ -153,6 +156,7 @@ public class CartonAcopladoDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
@@ -161,7 +165,7 @@ public class CartonAcopladoDAO {
         }
 
     }
-    
+
     //Metodo PesquisarCartonAcoplado
     public List<CartonAcoplado> pesquisarCartonAcoplado(String faca, String nome, String gramatura) {
 
@@ -197,6 +201,7 @@ public class CartonAcopladoDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
@@ -205,5 +210,5 @@ public class CartonAcopladoDAO {
         }
 
     }
-    
+
 }

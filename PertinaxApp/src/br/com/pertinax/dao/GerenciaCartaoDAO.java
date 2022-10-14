@@ -21,16 +21,16 @@ import javax.swing.JOptionPane;
  * @author mrs_a
  */
 public class GerenciaCartaoDAO {
-    
+
     private Connection con;
 
     public GerenciaCartaoDAO() {
         this.con = new ConnectionFactory().getConnection();
-    
+
     }
-    
+
     //Metodo cadastrarCartao
-    public void cadastrarCartao(GerenciaCartao obj){
+    public void cadastrarCartao(GerenciaCartao obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -38,38 +38,39 @@ public class GerenciaCartaoDAO {
                     + " values (?)";
 
             //2 passo - conectar o banco de dados e organizar o comando sql
-            PreparedStatement stmt = con.prepareStatement(sql);            
-            stmt.setString(1, obj.getNome());                      
+            PreparedStatement stmt = con.prepareStatement(sql);
+            stmt.setString(1, obj.getNome());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Cadastrado com Sucesso!");
 
-        }
-        catch (Exception erro) {
+        } catch (Exception erro) {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
 
     }
-    
+
     //Metodo AlterarCartao
-    public void alterarCartao(GerenciaCartao obj){
+    public void alterarCartao(GerenciaCartao obj) {
         try {
 
             //1 passo  - criar o comando sql
             String sql = "update tb_cartao set nome=? where id=?";
 
             //2 passo - conectar o banco de dados e organizar o comando sql
-            PreparedStatement stmt = con.prepareStatement(sql);            
-            stmt.setString(1, obj.getNome()); 
+            PreparedStatement stmt = con.prepareStatement(sql);
+            stmt.setString(1, obj.getNome());
             stmt.setInt(2, obj.getId());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Alterado com Sucesso!");
 
@@ -77,11 +78,11 @@ public class GerenciaCartaoDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ExcluirCartao
-    public void excluirCartao(GerenciaCartao obj){
+    public void excluirCartao(GerenciaCartao obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -89,11 +90,12 @@ public class GerenciaCartaoDAO {
 
             //2 passo - conectar o banco de dados e organizar o comando sql
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setInt(1, obj.getId());            
+            stmt.setInt(1, obj.getId());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Excluido com Sucesso!");
 
@@ -101,9 +103,9 @@ public class GerenciaCartaoDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ListarGerenciaCartao
     public List<GerenciaCartao> listarGerenciaCartao() {
 
@@ -122,11 +124,12 @@ public class GerenciaCartaoDAO {
                 GerenciaCartao obj = new GerenciaCartao();
 
                 obj.setId(rs.getInt("id"));
-                obj.setNome(rs.getString("nome"));                
+                obj.setNome(rs.getString("nome"));
 
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {

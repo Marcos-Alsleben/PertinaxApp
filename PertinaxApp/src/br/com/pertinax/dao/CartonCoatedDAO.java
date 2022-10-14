@@ -21,13 +21,13 @@ import javax.swing.JOptionPane;
  * @author mrs_a
  */
 public class CartonCoatedDAO {
-    
+
     private Connection con;
 
     public CartonCoatedDAO() {
         this.con = new ConnectionFactory().getConnection();
     }
-    
+
     //Metodo cadastrarCoated
     public void cadastrarCoated(CartonCoated obj) {
         try {
@@ -40,7 +40,7 @@ public class CartonCoatedDAO {
             PreparedStatement stmt = con.prepareStatement(sql);
             stmt.setString(1, obj.getFaca());
             stmt.setString(2, obj.getNome());
-            stmt.setInt(3, obj.getGrm_cartao());     
+            stmt.setInt(3, obj.getGrm_cartao());
             stmt.setString(4, obj.getUv());
             stmt.setFloat(5, obj.getPertinax());
             stmt.setFloat(6, obj.getFresa1());
@@ -50,6 +50,7 @@ public class CartonCoatedDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Cadastrado com Sucesso!");
 
@@ -59,9 +60,9 @@ public class CartonCoatedDAO {
         }
 
     }
-    
+
     //Metodo AlterarCoated
-    public void alterarCoated(CartonCoated obj){
+    public void alterarCoated(CartonCoated obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -72,7 +73,7 @@ public class CartonCoatedDAO {
             PreparedStatement stmt = con.prepareStatement(sql);
             stmt.setString(1, obj.getFaca());
             stmt.setString(2, obj.getNome());
-            stmt.setInt(3, obj.getGrm_cartao());     
+            stmt.setInt(3, obj.getGrm_cartao());
             stmt.setString(4, obj.getUv());
             stmt.setFloat(5, obj.getPertinax());
             stmt.setFloat(6, obj.getFresa1());
@@ -83,6 +84,7 @@ public class CartonCoatedDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Alterado com Sucesso!");
 
@@ -90,11 +92,11 @@ public class CartonCoatedDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ExcluirCoated
-    public void excluirCoated(CartonCoated obj){
+    public void excluirCoated(CartonCoated obj) {
         try {
 
             //1 passo  - criar o comando sql
@@ -102,11 +104,12 @@ public class CartonCoatedDAO {
 
             //2 passo - conectar o banco de dados e organizar o comando sql
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setInt(1, obj.getId());            
+            stmt.setInt(1, obj.getId());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Excluido com Sucesso!");
 
@@ -114,9 +117,9 @@ public class CartonCoatedDAO {
             JOptionPane.showMessageDialog(null, "Erro: " + erro);
 
         }
-   
+
     }
-    
+
     //Metodo ListarCartonCoated
     public List<CartonCoated> listarCartonCoated() {
 
@@ -147,6 +150,7 @@ public class CartonCoatedDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
@@ -155,7 +159,7 @@ public class CartonCoatedDAO {
         }
 
     }
-    
+
     //Metodo PesquisarCartonCoated
     public List<CartonCoated> pesquisarCartonCoated(String faca, String nome, String gramatura) {
 
@@ -189,6 +193,7 @@ public class CartonCoatedDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
@@ -197,5 +202,5 @@ public class CartonCoatedDAO {
         }
 
     }
-    
+
 }

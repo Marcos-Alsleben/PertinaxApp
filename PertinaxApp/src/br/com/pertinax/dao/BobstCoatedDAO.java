@@ -46,6 +46,7 @@ public class BobstCoatedDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Cadastrado com Sucesso!");
 
@@ -75,6 +76,7 @@ public class BobstCoatedDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Alterado com Sucesso!");
 
@@ -94,11 +96,12 @@ public class BobstCoatedDAO {
 
             //2 passo - conectar o banco de dados e organizar o comando sql
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setInt(1, obj.getId());            
+            stmt.setInt(1, obj.getId());
 
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Excluido com Sucesso!");
 
@@ -136,6 +139,7 @@ public class BobstCoatedDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
@@ -144,7 +148,7 @@ public class BobstCoatedDAO {
         }
 
     }
-    
+
     //Metodo PesquisarBobstCoated por nome
     public List<BobstCoated> pesquisarNomeBobstCoated(String nome, String gramatura) {
 
@@ -174,6 +178,7 @@ public class BobstCoatedDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {
